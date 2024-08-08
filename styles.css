@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    margin: 15px;
+}
+.input{
+    background-color:rgb(71, 225, 112);
+    height: 25px;
+    border-radius: 10px;
+}
+.btn{
+    color: azure;
+    background-color: black;
+    border-radius: 10px;
+}
+#ranks{
+    margin: 10px;
+
+
+}
+.sp{
+    padding:0px 30px;
+}
+.space{
+    width: 20%;
+}
+#board{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: ivory;
+    padding: 5px;
+    width: 786px;
+    height:60px;
+    margin: 10px;
+}
+#ranks button{
+       background-color: aqua;
+      margin: 0 10px;
+}
